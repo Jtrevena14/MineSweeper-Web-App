@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(26, 26, 26);
+}
+.main_board{
+    background-color:rgb(209, 209, 209);
+    color:rgb(34, 34, 34);
+    border:outset;
+    border-width:5px;
+    display:grid;
+    margin:8em auto;
+    width:700px;
+}
+.board_top{
+    font-family:monospace;
+    font-weight:bold;
+    font-size:40px;
+    padding:0.5em 3em;
+    text-align:center;
+    border:outset;
+    border-width:5px;
+    
+}
+#board{
+    display:grid;
+    font-size:20px;
+    line-height:35px;
+    padding:1em 1em;
+    cursor:pointer;
+
+}
+#board a{
+    font-size:40px;
+    color:transparent;
+    font-weight:bold;
+    background-color:rgb(209, 209, 209);
+    text-align:center;
+    font-family: monospace;
+    text-decoration:none;
+    border:outset;
+    border-width:5px;
+    user-select:none;
+}
+#board .revealed{
+    color:rgb(0, 0, 0);
+    background-color:rgb(202, 202, 202);
+    border:solid;
+    border-width:2px;
+    border-color:gray;
+}
+#board .hover{
+    border:inset;
+}
+
